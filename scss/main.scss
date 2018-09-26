@@ -1,6 +1,6 @@
 // main scss file, partials are imported here
-
 @import "config"; // importing the partial "_config.scss" with all the vars and mixin (functions)
+@import "menu";
 
 * {
   box-sizing: border-box;
