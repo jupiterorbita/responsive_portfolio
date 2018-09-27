@@ -1,7 +1,8 @@
 // main scss file, partials are imported here
 @import "config"; // importing the partial "_config.scss" with all the vars and mixin (functions)
 @import "menu";
-@import "mobile";
+// mobile is moved to the bottom so it loads after all the css
+// @import "mobile";
 
 * {
   box-sizing: border-box;
@@ -10,7 +11,8 @@
 body {
   @include background;
   background: $primary-color;
-  color: #fff;
+  //   color: #fff;
+  color: set-text-color($primary-color);
   height: 100%;
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -50,15 +52,20 @@ header {
   width: 100%; // let it strech across the screen
 }
 
-span.text-secondary {
+//span from index.html and h3 from about.html
+.text-secondary {
   color: $secondary-color;
-  font-size: 4rem; // 6rem != my name is too big :P
+  //   font-size: 6rem; // 6rem != my name is too big :P
 }
+// change it from the h3.about.html *****************
 
 // all other content not header btn
 main {
   padding: 4rem;
-  height: 100%;
+  //   height: 100%;
+  // for the footer fo calc in the element before it
+  // set sticky footer, 100vh - the height of the footer
+  min-height: calc(100vh - 60px);
 
   .icons {
     margin-top: 1rem;
@@ -81,3 +88,53 @@ main {
     }
   }
 }
+
+// ======== ABOUT PAGE ========
+.about-info {
+  display: grid; // tell the div to become a grid
+  grid-gap: 30px;
+  // next create visual representation
+  grid-template-areas:
+    "bioimage bio bio"
+    "job1 job2 job3";
+  // define it
+  grid-template-columns: 1fr 1fr 1fr; // OR repeat(3, 1fr);
+
+  // defining the grid areas
+  .bio-image {
+    grid-area: bioimage;
+    margin: auto;
+    border-radius: 50%;
+    border: 3px solid $secondary-color;
+  }
+  .bio {
+    grid-area: bio;
+    font-size: 1.5rem;
+  }
+  .job-1 {
+    grid-area: job1;
+  }
+  .job-2 {
+    grid-area: job2;
+  }
+  .job-3 {
+    grid-area: job3;
+  }
+
+  .job {
+    background: lighten($primary-color, 5);
+    padding: 0.5rem;
+    border-bottom: 5px solid $secondary-color;
+    border-radius: 10px;
+  }
+}
+
+#main-footer {
+  text-align: center;
+  padding: 1rem;
+  background: darken($primary-color, 10);
+  color: set-text-color($primary-color);
+  height: 60px;
+}
+
+@import "mobile";

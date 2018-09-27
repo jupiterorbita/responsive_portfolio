@@ -45,6 +45,19 @@
       height: 150px;
     }
   }
+
+  //   === About page ===
+  .about-info {
+    //   change the grid for mobile
+    grid-template-areas:
+      "bioimage"
+      "bio"
+      "job1"
+      "job2"
+      "job3";
+
+    grid-template-columns: 1fr;
+  }
 }
 
 // Smartphone
