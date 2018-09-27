@@ -8,10 +8,12 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
         crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
-    <title>Welcome To My Portfolio</title>
+    <title>Get In Touch</title>
 </head>
 
-<body id=bg-img>
+<!-- id=bg-img if I want another background -->
+
+<body>
     <!-- <div class="overlay"></div> -->
     <header>
         <!-- the 3 line menu button -->
@@ -31,7 +33,7 @@
 
             <!-- right side nav -->
             <ul class="menu-nav">
-                <li class="nav-item current">
+                <li class="nav-item">
                     <a href="index.html" class="nav-link">
                         Home
                     </a>
@@ -46,7 +48,7 @@
                         My Work
                     </a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item current">
                     <a href="contact.html" class="nav-link">
                         How To Reach Me
                     </a>
@@ -55,28 +57,33 @@
         </nav>
     </header>
 
-    <main id="home">
+    <main id="contact">
         <h1 class="lg-heading">
-            John <span class="text-secondary">Misirlakis</span>
+            Contact <span class="text-secondary">Me</span>
         </h1>
         <h2 class="sm-heading">
-            Web & Mobile Developer, Programmer, Photographer
+            How to reach me...
         </h2>
-        <div class="icons">
-            <a href="#!">
-                <i class="fab fa-twitter fa-2x"></i>
-            </a>
-            <a href="#!">
-                <i class="fab fa-facebook fa-2x"></i>
-            </a>
-            <a href="#!">
-                <i class="fab fa-linkedin fa-2x"></i>
-            </a>
-            <a href="#!">
-                <i class="fab fa-github fa-2x"></i>
-            </a>
+
+        <!-- flex container -->
+        <div class="boxes">
+            <div>
+                <span class="text-secondary">email:</span> john@temp.com
+            </div>
+            <div>
+                <span class="text-secondary">phone:</span> (632) XXX-XXXX
+            </div>
+            <div>
+                <span class="text-secondary">Address:</span> East Capitol St NE & First St SE, Washington, DC 20004
+            </div>
+
         </div>
+
     </main>
+
+    <footer id='main-footer'>
+        Copyright &copy; 2018
+    </footer>
 
     <script src="js/main.js"></script>
 </body>
