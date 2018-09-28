@@ -15,12 +15,12 @@ div.menu-btn {
     transform: rotate(180deg); }
     div.menu-btn.close div.btn-line:nth-child(1) {
       transform: rotate(45deg) translate(5px, 5px);
-      background: #1a87ee; }
+      background: #eece1a; }
     div.menu-btn.close div.btn-line:nth-child(2) {
       opacity: 0; }
     div.menu-btn.close div.btn-line:nth-child(3) {
       transform: rotate(-45deg) translate(7px, -6px);
-      background: #1a87ee; }
+      background: #eece1a; }
 
 .menu {
   position: fixed;
@@ -58,14 +58,14 @@ div.menu-btn {
       height: 250px;
       background: url("../img/portrait.jpg");
       border-radius: 50%;
-      border: solid 3px #1a87ee; }
+      border: solid 3px #eece1a; }
   .menu .nav-item {
     transform: translate3d(900px, 0, 0);
     transition: all 0.5s ease-out; }
     .menu .nav-item.show {
       transform: translate3d(0, 0, 0); }
     .menu .nav-item.current > a {
-      color: #1a87ee; }
+      color: #eece1a; }
   .menu .nav-link {
     display: inline-block;
     position: relative;
@@ -77,7 +77,7 @@ div.menu-btn {
     text-decoration: none;
     transition: all 0.5s ease-out; }
     .menu .nav-link:hover {
-      color: #1a87ee; }
+      color: #eece1a; }
 
 .nav-item:nth-child(1) {
   transition-delay: 0.15s; }
@@ -141,7 +141,10 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: #1a87ee; }
+  color: #eece1a; }
+
+.last_name {
+  font-size: 5rem; }
 
 main {
   padding: 4rem;
@@ -151,7 +154,7 @@ main {
     main .icons a {
       padding: 0.4rem; }
       main .icons a:hover {
-        color: #1a87ee;
+        color: #eece1a;
         transition: all 0.5s ease-out; }
   main#home {
     overflow: hidden; }
@@ -167,7 +170,7 @@ main {
     grid-area: bioimage;
     margin: auto;
     border-radius: 50%;
-    border: 3px solid #1a87ee; }
+    border: 3px solid #eece1a; }
   .about-info .bio {
     grid-area: bio;
     font-size: 1.5rem; }
@@ -180,7 +183,7 @@ main {
   .about-info .job {
     background: #404040;
     padding: 0.5rem;
-    border-bottom: 5px solid #1a87ee;
+    border-bottom: 5px solid #eece1a;
     border-radius: 10px; }
 
 .projects {
@@ -192,7 +195,7 @@ main {
     border: 3px solid #fff; }
     .projects img:hover {
       opacity: 0.5;
-      border-color: #1a87ee;
+      border-color: #eece1a;
       transition: all 0.5s ease-out; }
 
 .boxes {
@@ -209,7 +212,7 @@ main {
     transition: all 0.5s ease-out; }
     .boxes div:hover {
       padding: 1.5rem 2.5rem;
-      background: #1a87ee;
+      background: #eece1a;
       color: #000; }
       .boxes div:hover span {
         color: #000; }
@@ -220,7 +223,7 @@ main {
   border: 0;
   margin-bottom: 0.3rem; }
   .btn:hover, .btn-dark:hover, .btn-light:hover {
-    background: #1a87ee;
+    background: #eece1a;
     color: #000; }
 
 .btn-dark {

@@ -55,9 +55,10 @@ header {
 //span from index.html and h3 from about.html
 .text-secondary {
   color: $secondary-color;
-  //   font-size: 6rem; // 6rem != my name is too big :P
 }
-// change it from the h3.about.html *****************
+.last_name {
+  font-size: 5rem;
+}
 
 // all other content not header btn
 main {
