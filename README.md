@@ -7,9 +7,9 @@
 
 </p>
 
-#### responsive portfolio with 
+#### Responsive Portfolio 
 
-#### project available at: <br>
+#### Project available at: <br>
 ### <https://jupiterorbita.github.io/responsive_portfolio>
 
 
