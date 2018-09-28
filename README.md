@@ -10,7 +10,7 @@
 #### responsive portfolio with 
 
 #### project available at: <br>
-### <https://jupiterorbita.github.io/portfolio_B/>
+### <https://jupiterorbita.github.io/responsive_portfolio>
 
 
 ```
