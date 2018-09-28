@@ -1,5 +1,5 @@
 
-# Portfolio_C
+# Responsive Portfolio_C
 
 <p align="center">
   <img width="380" height="300" src="dist/img/preview_desktop.gif"> &nbsp; &nbsp;
@@ -7,7 +7,7 @@
 
 </p>
 
-#### Responsive Portfolio 
+#### A Responsive Portfolio 
 
 #### Project available at: <br>
 ### <https://jupiterorbita.github.io/responsive_portfolio>
