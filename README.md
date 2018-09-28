@@ -7,13 +7,13 @@
 
 </p>
 
-#### a simple landing page portfolio with blur on defocus
+#### responsive portfolio with 
 
 #### project available at: <br>
 ### <https://jupiterorbita.github.io/portfolio_B/>
 
 
 ```
-made with: HTML5, CSS3, FontAwesome - no CSS frameworks used
+technologies used: HTML5, CSS3, FontAwesome, Javascript, SASS
 ```
 by John Misirlakis
