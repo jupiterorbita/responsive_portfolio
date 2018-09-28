@@ -9,8 +9,8 @@
 
 #### a simple landing page portfolio with blur on defocus
 
-####project available at: <br>
-###<https://jupiterorbita.github.io/portfolio_B/>
+#### project available at: <br>
+### <https://jupiterorbita.github.io/portfolio_B/>
 
 
 ```
