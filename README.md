@@ -8,8 +8,6 @@
 </p>
 
 #### A Responsive Portfolio, Project available at: 
-<br>
-
 ### <https://jupiterorbita.github.io/responsive_portfolio>
 
 
